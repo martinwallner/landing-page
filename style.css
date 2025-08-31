@@ -1,0 +1,40 @@
+body {
+    font-family: Cardo, "Times New Roman", serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    /* background-color: lightblue; */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    margin: 0;
+    border: 0;
+
+}
+
+
+.menu {
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+ul li a {
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
