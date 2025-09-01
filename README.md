@@ -6,3 +6,4 @@ The landing page will be a copy of a Wordpress Website I run, called "Wittgenste
 
 
 test message to check git workflow
+test2 message to check git workflow
