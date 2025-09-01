@@ -1,7 +1,7 @@
 html, body {
     font-family: Inter, Roboto, sans-serif;
     /* margin: 0; */
-    margin: 0 90px;
+    margin: 0 80px;
     /* padding: 0; */
     height: 100%;
 }
@@ -47,8 +47,10 @@ html, body {
 }
 
 .content {
-    flex: 1;
+    /* flex: 1; */
     padding: 20px;
+    display: flex;
+
 }
 
 
@@ -62,3 +64,46 @@ html, body {
     flex-shrink: 0;
 
 }
+
+
+img {
+    width: 500px;
+    border-radius: 8px;
+}
+
+button, .buttons {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 12px;
+    font-family: font-family: Inter, Roboto, sans-serif;
+    /* align-content: center; */
+    margin-top: 40px;
+}
+
+.places, .maps {
+    background-color: black;
+    color: white;
+    border: none;
+    /* border-width: 1.5px;
+    border-color: black; */
+    border-radius: 5px;
+}
+
+.explore {
+    border-color: black;
+    border-width: 1.5px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.tagline {
+font-family: Cardo, "Times New Roman", "Times", serif !important;
+font-weight: 400;
+font-size: 38px;
+margin-right: 50px;
+}
+
