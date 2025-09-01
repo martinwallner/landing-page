@@ -11,6 +11,7 @@ html, body {
     flex-direction: column;
     min-height: 100vh;
     min-height: 100%;
+    margin: 0;
 }
 
 
@@ -50,6 +51,7 @@ html, body {
     /* flex: 1; */
     padding: 20px;
     display: flex;
+    margin: 0;
 
 }
 
@@ -107,3 +109,20 @@ font-size: 38px;
 margin-right: 50px;
 }
 
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 70px 190px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 32px;
+    font-family: Inter, Roboto, sans-serif;
+    margin: 50px 0;
+}
+
+.quoteauthor {
+    text-align: right;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+}
