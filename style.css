@@ -58,7 +58,7 @@ html, body {
 
 .footer {
     text-align: center;
-    margin-top: auto;
+    margin-top: 30px;
     background-color: #1F2937;
     color: #F9FAF8;
     padding: 25px;
@@ -83,6 +83,7 @@ img {
     font-family: Inter, "System sans-serif", Roboto, sans-serif;
     /* align-content: center; */
     margin-top: 40px;
+    /* margin-left: 0; */
 }
 
 .places, .maps {
@@ -96,6 +97,7 @@ img {
     font-size: 16px;
     font-weight: 600;
 }
+
 
 .discover {
     border-color: black;
@@ -113,6 +115,7 @@ font-weight: 400;
 font-size: 38px;
 margin-right: 50px;
 }
+
 
 
 .quote {
@@ -165,7 +168,7 @@ margin-right: 50px;
     color: white;
     /* margin-bottom: 30px; */
     border-radius: 10px;
-    margin: 30px 135px;
+    margin: 50px 135px;
     max-width: 1200px;
     gap: 45px;
 
@@ -199,4 +202,14 @@ margin-right: 50px;
     font-weight: bold;
     font-size: 16px;
     border-radius: 8px;
+}
+
+.recent p {
+    line-height: 1.5;
+    font-size: small;
+    margin: 0;
+}
+
+.recent {
+    margin-top: 30px;
 }
